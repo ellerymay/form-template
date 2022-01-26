@@ -14,8 +14,8 @@ function myFunction() {
         x.className = "topnav";
     }
 } 
-<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
-<script>
+/* <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+<script> */
 //https://tinyurl.com/dynamic-html-checker
 document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
   

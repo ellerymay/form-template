@@ -25,7 +25,7 @@ input:required {
       border: 1px solid red;
 }
 
-input:optional, textarea:optional {
+input:optional, textarea:optional { /* you can actually distinguish the boxes that are not required optional and required work together */
      background-color:#f1f1f1;
      border:1px solid #ccc;
 }

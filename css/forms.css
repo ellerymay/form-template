@@ -1,18 +1,18 @@
-form.main-form {
+form.main-form { /*  # = ID    .main-form= class ----- when you put form as a selector. There is no form that's exempt. The word form is too general. how many times will I write a rule on every paragraph on every webpage....... Form is just too broad. if you put down form it will affect all the form on hmtl and you only wanna affect the ones with the class main-form... SO WE CLASSIFIED THE FORM*/ 
   margin: 0, 1%; 
 
 }
 
-form.main-form > div {
+form.main-form > div { /* find this form (form.main-form) > (means drop down inside of it and grab andy divs that are children)  it does it to the child * just the child *****  */ 
   margin: 1 em; 
 }
 
-form.main-form fieldset {
-  border: 1px solid #ccc;
+form.main-form fieldset { /* a space is decendense?? meaning writes to the child div  descendant selector */
+  border: 1px solid #ccc; /* how big = 1px */ 
   max-width: 350px;
 }
 
-form.main.form legend {
+form.main.form legend { /* it gives it a box around the each question */
   margin-left: 0.5em; 
   padding:0.2em 0.5 em; 
   border-left: 1px solid #ccc;
@@ -20,11 +20,11 @@ form.main.form legend {
 
 }
 
-form.main-form input:required {
+form.main-form input:required { /* input is going to write on any input on the page. the colon is pseudo selector. It means your writing on all the required */
   border: 1px solid red;
 }
 
-form.main-form input[type="submit"]{
+form.main-form input[type="submit"]{ /* find an element that finds the attribute type="submit"*/ 
   border-radius: 4px;
   border: 1px solid #ccc; 
   padding: 0.3em 0.5em
